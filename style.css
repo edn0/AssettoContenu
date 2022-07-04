@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*///////// Header //////////////*/
+
+#header {
+    background-color: rgb(40, 45, 53);
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#title {
+    font-size: 46px;
+    background-image: linear-gradient(45deg, red,white, red, black, white);
+    background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1s ease-in;
+    margin: 0;
+}
+
+#title:hover {
+    background-position: right;
+}
+
+h6 {
+    color: white;
+}
+
+#header_left {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////// Frames ////////////////*/
+
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+#car_packs,
+#car_individual,
+#tracks,
+#servers {
+    background-color: rgb(97, 65, 154);
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 0px rgb(246, 65, 192);
+    -webkit-box-shadow: 2px 2px 5px 0px rgb(246, 65, 192);
+    -moz-box-shadow: 2px 2px 5px 0px rgb(246, 65, 192);
+}
+
