@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(40, 45, 53);
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -7,7 +7,7 @@ body {
 /*///////// Header //////////////*/
 
 #header {
-    background-color: rgb(40, 45, 53);
+    background-color: rgb(53, 56, 62);
     padding: 5px;
     border-radius: 0px 0px 10px 10px;
     display: flex;
