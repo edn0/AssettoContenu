@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 a {
-    font-size: 22px;
+    font-size: 20px;
     color: white;
 
 }
@@ -29,8 +29,8 @@ a:hover {
     padding: 5px;
     border-radius: 0px 0px 10px 10px;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 #title {
@@ -94,7 +94,7 @@ ul {
 #extras {
     background-color: rgb(97, 65, 154);
     margin: 20px;
-    width: 340px;
+    width: 400px;
     height: fit-content;
     padding: 20px;
     border-radius: 20px;
@@ -102,6 +102,8 @@ ul {
     -webkit-box-shadow: 1px 1px 5px 0px rgb(255, 255, 255);
     -moz-box-shadow: 1px 1px 5px 0px rgb(255, 255, 255);
     transition: 300ms ease-out;
+
+    line-height: 32px;
 }
 
 #car_packs:hover,
@@ -114,6 +116,10 @@ ul {
     box-shadow: 4px 4px 5px 0px rgb(255, 255, 255);
     -webkit-box-shadow: 4px 4px 5px 0px rgb(255, 255, 255);
     -moz-box-shadow: 4px 4px 5px 0px rgb(255, 255, 255);
+}
+
+#extras {
+    width: 200px;
 }
 
 #titles {
