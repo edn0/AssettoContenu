@@ -50,12 +50,15 @@ h6 {
 
 /*//////// Frames ////////////////*/
 
+ul {
+    list-style-type: none;
+}
 
 #main {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+    flex-flow: row nowrap;
 }
 
 #car_packs,
@@ -64,12 +67,23 @@ h6 {
 #servers {
     background-color: rgb(97, 65, 154);
     margin: 20px;
-    width: fit-content;
+    width: 350px;
     height: fit-content;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px 0px rgb(246, 65, 192);
-    -webkit-box-shadow: 2px 2px 5px 0px rgb(246, 65, 192);
-    -moz-box-shadow: 2px 2px 5px 0px rgb(246, 65, 192);
+    box-shadow: 1px 1px 5px 0px rgb(138, 1, 17);
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(138, 1, 17);
+    -moz-box-shadow: 1px 1px 5px 0px rgb(138, 1, 17);
+    transition: 0.4s ease-out;
 }
 
+#car_packs:hover,
+#car_individual:hover,
+#tracks:hover,
+#servers:hover {
+
+
+    box-shadow: 4px 4px 5px 0px rgb(138, 1, 17);
+    -webkit-box-shadow: 4px 4px 5px 0px rgb(138, 1, 17);
+    -moz-box-shadow: 4px 4px 5px 0px rgb(138, 1, 17);
+}
