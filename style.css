@@ -64,7 +64,8 @@ ul {
 #car_packs,
 #car_individual,
 #tracks,
-#servers {
+#servers,
+#extras {
     background-color: rgb(97, 65, 154);
     margin: 20px;
     width: 340px;
