@@ -55,15 +55,18 @@ h6 {
 
 #header_left {
     margin: 10px;
+    flex-grow: 2;
 }
 
 #header_right {
     margin: 10px;
-    font-size: 22px;
 }
 
-
-
+#twitch {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
 
 
 
