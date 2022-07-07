@@ -89,14 +89,18 @@ ul {
     align-items: baseline;
     justify-content: center;
     flex-flow: row nowrap;
+    background-image: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 #car_packs,
 #car_individual,
 #tracks,
 #servers,
 #extras {
-    background-color: rgb(97, 65, 154);
+    background-color: rgba(97, 65, 154, 0.85);
     margin: 20px;
     width: 400px;
     height: fit-content;
