@@ -86,7 +86,7 @@ ul {
     align-items: baseline;
     justify-content: center;
     flex-flow: row nowrap;
-    background-image: url(/bg.jpg);
+    background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
