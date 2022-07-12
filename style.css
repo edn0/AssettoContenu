@@ -88,7 +88,7 @@ ul {
     flex-flow: row nowrap;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 
@@ -97,16 +97,16 @@ ul {
 #tracks,
 #servers,
 #extras {
-    background-color: rgba(97, 65, 154, 0.85);
+    background-color: rgba(141, 63, 255, 0.3);
     margin: 20px;
     width: 400px;
     height: fit-content;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px 0px rgb(255, 255, 255);
-    -webkit-box-shadow: 1px 1px 5px 0px rgb(255, 255, 255);
-    -moz-box-shadow: 1px 1px 5px 0px rgb(255, 255, 255);
-    transition: 300ms ease-out;
+    box-shadow: 1px 1px 5px 4px rgba(141, 63, 255, 0.75);
+    -webkit-box-shadow: 1px 1px 5px 4px rgba(141, 63, 255, 0.75);
+    -moz-box-shadow: 1px 1px 5px 4px rgba(141, 63, 255, 0.75);
+    transition: 200ms ease-in-out;
 
     line-height: 32px;
 }
@@ -118,9 +118,10 @@ ul {
 #extras:hover {
 
 
-    box-shadow: 4px 4px 5px 0px rgb(255, 255, 255);
-    -webkit-box-shadow: 4px 4px 5px 0px rgb(255, 255, 255);
-    -moz-box-shadow: 4px 4px 5px 0px rgb(255, 255, 255);
+    
+    box-shadow: 5px 5px 5px 10px rgba(141, 63, 255, 0.85);
+    -webkit-box-shadow: 5px 5px 5px 10px rgba(141, 63, 255, 0.85);
+    -moz-box-shadow: 5px 5px 5px 10px rgba(141, 63, 255, 0.85);
 }
 
 #extras {
